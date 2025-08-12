@@ -77,7 +77,7 @@ console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
 
 // Exercise 7
 
-const calculateTip = (billInput = '0', tipPercentInput = '15') => {
+const calculateTip = (billInput = 0, tipPercentInput = 15) => {
     return (billInput * (tipPercentInput/100));
 }
 
